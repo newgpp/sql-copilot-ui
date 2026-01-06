@@ -80,6 +80,7 @@ export const useChatStore = defineStore("chat", () => {
     // 从后往前找最近一次 clarify
     for (let i = messages.value.length - 1; i >= 0; i--) {
       const m = messages.value[i];
+      if (!m) continue;
       if (m.kind === "clarify") return m.payload;
     }
     return null;
