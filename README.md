@@ -15,6 +15,25 @@ sql-copilot-ui 是一个基于 Vue 的前端应用，为用户提供自然语言
 - 提示风险与默认假设（如自动 limit、时间范围）
 
 
+### 环境&启动说明
+
+```text
+Node.js：>= 18（已验证 v22.x 可用）
+
+npm：>= 9（已验证 v10.x 可用）
+
+操作系统：
+
+macOS
+
+Windows（PowerShell / WSL 均可）
+```
+
+```shell
+npm install
+npm run dev
+```
+
 ### 项目结构
 
 ```shell
